@@ -12,7 +12,8 @@ const dev = {
     USER_POOL_ID: "YOUR_DEV_COGNITO_USER_POOL_ID",
     APP_CLIENT_ID: "YOUR_DEV_COGNITO_APP_CLIENT_ID",
     IDENTITY_POOL_ID: "YOUR_DEV_IDENTITY_POOL_ID"
-  }
+  },
+  STRIPE_KEY: "sk_test_spySUYoAyKxyLZGi2i4gQ9sQ",
 };
 
 const prod = {
@@ -29,7 +30,8 @@ const prod = {
     USER_POOL_ID: "YOUR_PROD_COGNITO_USER_POOL_ID",
     APP_CLIENT_ID: "YOUR_PROD_COGNITO_APP_CLIENT_ID",
     IDENTITY_POOL_ID: "YOUR_PROD_IDENTITY_POOL_ID"
-  }
+  },
+  STRIPE_KEY: "sk_test_spySUYoAyKxyLZGi2i4gQ9sQ",
 };
 
 // Default to dev if not set
